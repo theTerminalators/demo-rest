@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  height: 1
+  color: MyString
+  age: 1
+  name: MyString
+
+two:
+  height: 1
+  color: MyString
+  age: 1
+  name: MyString

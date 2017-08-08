@@ -1,0 +1,9 @@
+<p>Here is where the edit form goes</p>
+
+<%= form_tag "/plants/#{@plant.id}", method: :patch do %>
+  <p>age<input type="text" name="edit_age" value="<%= @plant.age %>"></p>
+  <p>name<input type="text" name="edit_name" value="<%= @plant.name %>"></p>
+  <p>height<input type="text" name="edit_height" value="<%= @plant.height %>"></p>
+  <p>color<input type="text" name="edit_color" value="<%= @plant.color %>"></p>
+  <input type="submit" value="Edit me">
+<% end %>

@@ -1,0 +1,8 @@
+<p><%= @plant.name %></p>
+<p><%= @plant.height %></p>
+<p><%= @plant.color %></p>
+<p><%= @plant.age %></p>
+
+<%= form_tag "/plants/#{@plant.id}", method: :delete do  %>
+  <input type="submit" value="Delete me!!!">
+<% end %>
